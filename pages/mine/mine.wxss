@@ -1,0 +1,165 @@
+/* pages/mine/mine.wxss */
+@import "../more-item/more-item.wxss";
+.customer-message{
+    width:750rpx;
+    height:260rpx;
+    background:linear-gradient(220deg,rgba(60,164,240,1) 0%,rgba(40,164,255,1) 50%,rgba(20,156,255,1) 100%,rgba(38,163,255,1) 100%,rgba(60,164,240,1) 100%);
+    box-shadow:0px 2px 4px 0px rgba(60,164,240,1);
+}
+.head{
+    display:flex;
+    padding-top:55rpx;
+    padding-left:59rpx;
+    box-sizing:border-box;
+}
+.head>view:first-child{
+    width:72rpx;
+    height:72rpx;
+    background:rgba(247,247,247,1);
+    border:1px solid rgba(151,151,151,1);
+    border-radius:50%;
+}
+.head-number{
+    width:145rpx;
+    height:33rpx;
+    font-size:24rpx;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:33rpx;
+    margin-left:15rpx;
+}
+.head-vip{
+    width:72rpx;
+    height:25rpx;
+    font-size:18rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:25rpx;
+    margin-top:10rpx;
+}
+/* 订单信息 */
+.ding-message{
+    width:670rpx;
+    height:204rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 4px 0px rgba(224,224,224,0.5);
+    border-radius:8rpx;
+    margin:40rpx auto;
+}
+.ding-more{
+    display:flex;
+    justify-content: space-between;
+    padding:0 40rpx;
+    box-sizing:border-box;
+    margin-top:20rpx;
+}
+.ding-more>view:first-child{
+    width:88rpx;
+    height:30rpx;
+    font-size:22rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:30rpx;
+}
+.buy-last{
+    width:90rpx!important;
+}
+.buy-last>image{
+    margin-left:20rpx!important;
+}
+.buy-last>view{
+    width:90rpx!important;
+}
+.ding-more>view:last-child{
+    width:57rpx;
+    height:25rpx;
+    font-size:18rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:25rpx;
+}
+.ding-content{
+    width:47rpx;
+    margin-top:20rpx;
+
+}
+.ding-item{
+    padding:0 89rpx;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: space-between;
+    margin-top:20rpx;
+}
+.ding-content>image{
+    width:47rpx;
+    height:47rpx;
+    margin-left:6rpx;
+}
+.ding-content>view{
+    width:60rpx;
+    height:28rpx;
+    display:inline-block;
+    font-size:20rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:28rpx;
+}
+/* 我的工具 */
+.my-gongju{
+    width:670rpx;
+    height:345rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 4px 0px rgba(224,224,224,0.5);
+    border-radius:8rpx;
+    margin:15rpx auto;
+}
+.gongju-name{
+    width:88rpx;
+    height:30rpx;
+    font-size:22rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:30rpx;
+    margin:20rpx 0 0 40rpx;
+}
+.content-gongju{
+    margin-top:100rpx;
+    padding:0 96rpx;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.gongju-item{
+    width:100rpx;
+    margin-bottom:20rpx;
+}
+.gongju-item>image{
+    width:44rpx;
+    height:44rpx;
+    margin-left:10rpx;
+}
+.gongju-item>view{
+    width:60rpx;
+    height:28rpx;
+    font-size:20rpx;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:28rpx;
+}
+.kefu-phone>view{
+    width:100rpx;
+}
+.kefu-phone>image{
+    margin-left:17rpx;
+}
+.content-gongju .last{
+    margin-right:133rpx;
+}

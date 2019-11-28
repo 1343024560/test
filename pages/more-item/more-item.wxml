@@ -1,0 +1,144 @@
+<!--pages/more-item/more-item.wxml-->
+<template name="medcine-more">
+     <view class="cont-more" hover-class="none" hover-stop-propagation="false">
+        <view class="title" hover-class="none" hover-stop-propagation="false">◇ 更多商品 ◇</view>
+        <view class="cont-item" hover-class="none" hover-stop-propagation="false">
+            <view class="more-item" hover-class="none" hover-stop-propagation="false">
+                <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+                <view class="more-price" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-item" hover-class="none" hover-stop-propagation="false">
+                    <view class="price" hover-class="none" hover-stop-propagation="false">
+                        ￥260元
+                    </view>
+                    <view class="primary-button1" hover-class="none" hover-stop-propagation="false">
+                        +
+                    </view>
+                </view>
+            </view>
+            <view class="more-item" hover-class="none" hover-stop-propagation="false">
+                <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+                <view class="more-price" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-item" hover-class="none" hover-stop-propagation="false">
+                    <view class="price" hover-class="none" hover-stop-propagation="false">
+                        ￥260元
+                    </view>
+                    <view class="primary-button1" hover-class="none" hover-stop-propagation="false">
+                        +
+                    </view>
+                </view>
+            </view>
+            <view class="more-item" hover-class="none" hover-stop-propagation="false">
+                <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+                <view class="more-price" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-item" hover-class="none" hover-stop-propagation="false">
+                    <view class="price" hover-class="none" hover-stop-propagation="false">
+                        ￥260元
+                    </view>
+                    <view class="primary-button1" hover-class="none" hover-stop-propagation="false">
+                        +
+                    </view>
+                </view>
+            </view>
+            <view class="more-item" hover-class="none" hover-stop-propagation="false">
+                <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+                <view class="more-price" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-item" hover-class="none" hover-stop-propagation="false">
+                    <view class="price" hover-class="none" hover-stop-propagation="false">
+                        ￥260元
+                    </view>
+                    <view class="primary-button1" hover-class="none" hover-stop-propagation="false">
+                        +
+                    </view>
+                </view>
+            </view>
+            <view class="more-item" hover-class="none" hover-stop-propagation="false">
+                <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+                <view class="more-price" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-item" hover-class="none" hover-stop-propagation="false">
+                    <view class="price" hover-class="none" hover-stop-propagation="false">
+                        ￥260元
+                    </view>
+                    <view class="primary-button1" hover-class="none" hover-stop-propagation="false">
+                        +
+                    </view>
+                </view>
+            </view>
+            <view class="more-item" hover-class="none" hover-stop-propagation="false">
+                <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+                <view class="more-price" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-item" hover-class="none" hover-stop-propagation="false">
+                    <view class="price" hover-class="none" hover-stop-propagation="false">
+                        ￥260元
+                    </view>
+                    <view class="primary-button1" hover-class="none" hover-stop-propagation="false">
+                        +
+                    </view>
+                </view>
+            </view>
+            <view class="more-item" hover-class="none" hover-stop-propagation="false">
+                <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+                <view class="more-price" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-item" hover-class="none" hover-stop-propagation="false">
+                    <view class="price" hover-class="none" hover-stop-propagation="false">
+                        ￥260元
+                    </view>
+                    <view class="primary-button1" hover-class="none" hover-stop-propagation="false">
+                        +
+                    </view>
+                </view>
+            </view>
+           
+        </view>
+         <view class="item-none" hover-class="none" hover-stop-propagation="false">商品已见底</view>
+    </view>
+
+</template>

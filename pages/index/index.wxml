@@ -1,0 +1,242 @@
+<!--index.wxml-->
+<view class="contain">
+<view class="adress" hover-class="none" hover-stop-propagation="false">
+  北京朝阳
+</view>
+   <view class="">
+     <input type="text" class="contain_input"/>
+   </view>
+   <view class="logon" hover-class="none" hover-stop-propagation="false">
+     登录
+   </view>
+</view>
+<view class="body" hover-class="none" hover-stop-propagation="false">
+  <view class="body-left" hover-class="none" hover-stop-propagation="false">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+      <view class="medcine-name" wx:key="{{index}}" class="{{chooseid==item.id?'name-first':''}}" wx:for="{{arr}}" bindtap="choose" data-id="{{item.id}}">
+        {{item.name}}
+        
+      </view>
+    </view>
+    
+  </view>
+  <view class="body-right" hover-class="none" hover-stop-propagation="false">
+      <view class="right-cont" hover-class="none" hover-stop-propagation="false">
+          <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg">
+          </image>
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <view class="specfication" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              已被请 盐酸美金刚片
+            </view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              10mg*24片/盒
+            </view>
+          </view>
+          <view class="price" hover-class="none" hover-stop-propagation="false">
+              <view class="price-last" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥260元</text> /盒
+              </view>
+              <view class="price-vip" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥200元</text>
+              </view>
+              <view class="vip-price" hover-class="none" hover-stop-propagation="false">
+                会员价
+              </view>
+              <view class="isNone" hover-class="none" hover-stop-propagation="false">
+                有库存
+              </view>
+          </view>
+          <view class="medcine-adress" hover-class="none" hover-stop-propagation="false">
+                药厂来源:<text class="" selectable="false" space="false" decode="false"> 杭州默沙东只要有限公司</text>
+              <!-- <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view> -->
+              <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view>
+          </view>
+         </view>
+      
+      
+    
+      </view>
+       <view class="right-cont" hover-class="none" hover-stop-propagation="false">
+          <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg">
+          </image>
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <view class="specfication" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              已被请 盐酸美金刚片
+            </view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              10mg*24片/盒
+            </view>
+          </view>
+          <view class="price" hover-class="none" hover-stop-propagation="false">
+              <view class="price-last" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥260元</text> /盒
+              </view>
+              <view class="price-vip" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥200元</text>
+              </view>
+              <view class="vip-price" hover-class="none" hover-stop-propagation="false">
+                会员价
+              </view>
+              <view class="isNone" hover-class="none" hover-stop-propagation="false">
+                有库存
+              </view>
+          </view>
+          <view class="medcine-adress" hover-class="none" hover-stop-propagation="false">
+                药厂来源:<text class="" selectable="false" space="false" decode="false"> 杭州默沙东只要有限公司</text>
+              <!-- <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view> -->
+              <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view>
+          </view>
+         </view>
+      
+      
+    
+      </view>
+
+       <view class="right-cont" hover-class="none" hover-stop-propagation="false">
+          <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg">
+          </image>
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <view class="specfication" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              已被请 盐酸美金刚片
+            </view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              10mg*24片/盒
+            </view>
+          </view>
+          <view class="price" hover-class="none" hover-stop-propagation="false">
+              <view class="price-last" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥260元</text> /盒
+              </view>
+              <view class="price-vip" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥200元</text>
+              </view>
+              <view class="vip-price" hover-class="none" hover-stop-propagation="false">
+                会员价
+              </view>
+              <view class="isNone" hover-class="none" hover-stop-propagation="false">
+                有库存
+              </view>
+          </view>
+          <view class="medcine-adress" hover-class="none" hover-stop-propagation="false">
+                药厂来源:<text class="" selectable="false" space="false" decode="false"> 杭州默沙东只要有限公司</text>
+              <!-- <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view> -->
+              <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view>
+          </view>
+         </view>
+      
+      
+    
+      </view>
+
+       <view class="right-cont" hover-class="none" hover-stop-propagation="false">
+          <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg">
+          </image>
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <view class="specfication" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              已被请 盐酸美金刚片
+            </view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              10mg*24片/盒
+            </view>
+          </view>
+          <view class="price" hover-class="none" hover-stop-propagation="false">
+              <view class="price-last" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥260元</text> /盒
+              </view>
+              <view class="price-vip" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥200元</text>
+              </view>
+              <view class="vip-price" hover-class="none" hover-stop-propagation="false">
+                会员价
+              </view>
+              <view class="isNone" hover-class="none" hover-stop-propagation="false">
+                有库存
+              </view>
+          </view>
+          <view class="medcine-adress" hover-class="none" hover-stop-propagation="false">
+                药厂来源:<text class="" selectable="false" space="false" decode="false"> 杭州默沙东只要有限公司</text>
+              <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view>
+          </view>
+         </view>
+      
+      </view>
+
+       <view class="right-cont" hover-class="none" hover-stop-propagation="false">
+          <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg">
+          </image>
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <view class="specfication" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              已被请 盐酸美金刚片
+            </view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              10mg*24片/盒
+            </view>
+          </view>
+          <view class="price" hover-class="none" hover-stop-propagation="false">
+              <view class="price-last" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥260元</text> /盒
+              </view>
+              <view class="price-vip" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥200元</text>
+              </view>
+              <view class="vip-price" hover-class="none" hover-stop-propagation="false">
+                会员价
+              </view>
+              <view class="isNone" hover-class="none" hover-stop-propagation="false">
+                有库存
+              </view>
+          </view>
+          <view class="medcine-adress" hover-class="none" hover-stop-propagation="false">
+                药厂来源:<text class="" selectable="false" space="false" decode="false"> 杭州默沙东只要有限公司</text>
+              <!-- <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view> -->
+              <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view>
+          </view>
+         </view>
+      
+      
+    
+      </view>
+
+       <view class="right-cont" hover-class="none" hover-stop-propagation="false">
+          <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg">
+          </image>
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <view class="specfication" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              已被请 盐酸美金刚片
+            </view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+              10mg*24片/盒
+            </view>
+          </view>
+          <view class="price" hover-class="none" hover-stop-propagation="false">
+              <view class="price-last" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥260元</text> /盒
+              </view>
+              <view class="price-vip" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">￥200元</text>
+              </view>
+              <view class="vip-price" hover-class="none" hover-stop-propagation="false">
+                会员价
+              </view>
+              <view class="isNone" hover-class="none" hover-stop-propagation="false">
+                有库存
+              </view>
+          </view>
+          <view class="medcine-adress" hover-class="none" hover-stop-propagation="false">
+                药厂来源:<text class="" selectable="false" space="false" decode="false"> 杭州默沙东只要有限公司</text>
+              <!-- <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view> -->
+              <view class="addnum" hover-class="none" hover-stop-propagation="false">+</view>
+          </view>
+         </view>
+      
+      
+    
+      </view>
+  </view>
+</view>

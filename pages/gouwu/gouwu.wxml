@@ -1,0 +1,66 @@
+<!-- pages/gouwu/gouwu.wxml -->
+<import src="../more-item/more-item"/>
+<view class="contain" hover-class="none" hover-stop-propagation="false">
+    <view class="adress" hover-class="none" hover-stop-propagation="false">
+        <view class="primary-button primary-button0" hover-class="none" hover-stop-propagation="false"></view>
+        <text class="" selectable="false" space="false" decode="false">北京市朝阳区五福同康药店</text>
+        <view class="login" hover-class="none" hover-stop-propagation="false">登录</view>
+    </view>
+    <view class="content2" hover-class="none" hover-stop-propagation="false">
+        <view class="content" hover-class="none" hover-stop-propagation="false">
+            <view class="primary-button" hover-class="none" hover-stop-propagation="false"></view>
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg"></image>
+            <view class="medcine-price" hover-class="none" hover-stop-propagation="false">
+                <view class="specfication" hover-class="none" hover-stop-propagation="false">
+                    <view class=" " hover-class="none" hover-stop-propagation="false">
+                        已被请 盐酸美金刚片
+                    </view>
+                    <view class="" hover-class="none" hover-stop-propagation="false">
+                        10mg*24片/盒
+                    </view>
+                </view>
+                <view class="price-last" hover-class="none" hover-stop-propagation="false">
+                    <text class="" selectable="false" space="false" decode="false">￥260元</text>
+                    /盒
+                </view>
+                <view class="lastnum" hover-class="none" hover-stop-propagation="false">
+                    库存仅剩
+                    <text>10</text>
+                    件
+                </view>
+            </view>
+            <view class="addnum" hover-class="none" hover-stop-propagation="false">
+                <view class="" hover-class="none" hover-stop-propagation="false">-</view>
+                <view class="number" hover-class="none" hover-stop-propagation="false">1</view>
+                <view class="" hover-class="none" hover-stop-propagation="false">+</view>
+            </view>
+        </view>
+    </view>
+
+
+
+    
+   <template is="medcine-more"></template>
+
+
+
+    <view class="price-bottom" hover-class="none" hover-stop-propagation="false">
+        <view class="primary-button1 primary-button2" hover-class="none" hover-stop-propagation="false"></view>
+        <text class="chooseall" selectable="false" space="false" decode="false">全选</text>
+        <view class="price-all" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">
+                <text class="" selectable="false" space="false" decode="false">合计: </text>
+                <text class="" selectable="false" space="false" decode="false">245.00元</text>
+            </view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+                运费:
+                <text class="" selectable="false" space="false" decode="false">0.00元</text>
+            </view>
+        </view>
+        <view class="allchose" hover-class="none" hover-stop-propagation="false">
+            去结算(
+            <text>1</text>
+            )
+        </view>
+    </view>
+</view>

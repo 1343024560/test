@@ -1,0 +1,68 @@
+<import src="../more-item/more-item" />
+<view class="customer-message" hover-class="none" hover-stop-propagation="false">
+    <view class="head" hover-class="none" hover-stop-propagation="false">
+        <view class="" hover-class="none" hover-stop-propagation="false"></view>
+        <view class="head-number" hover-class="none" hover-stop-propagation="false">
+            <view class="" hover-class="none" hover-stop-propagation="false">123456**888</view>
+            <view class="head-vip" hover-class="none" hover-stop-propagation="false">普通会员</view>
+        </view>
+    </view>
+</view>
+<view class="ding-message" hover-class="none" hover-stop-propagation="false">
+    <view class="ding-more" hover-class="none" hover-stop-propagation="false">
+        <view>订单信息</view>
+        <view class="" hover-class="none" hover-stop-propagation="false">更多 ></view>
+    </view>
+    <view class="ding-item" hover-class="none" hover-stop-propagation="false">
+        <view class="ding-content" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">审核中</view>
+        </view>
+        <view class="ding-content" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">已审核</view>
+        </view>
+        <view class="ding-content" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">待评价</view>
+        </view>
+        <view class="ding-content buy-last" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">退款/售后</view>
+        </view>
+    </view>
+</view>
+<view class="my-gongju" hover-class="none" hover-stop-propagation="false">
+    <view class="gongju-name" hover-class="none" hover-stop-propagation="false">我的工具</view>
+    <view class="content-gongju" hover-class="none" hover-stop-propagation="false">
+        <view class="gongju-item" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">购物车</view>
+        </view>
+         <view class="gongju-item" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">优惠券</view>
+        </view>
+         <view class="gongju-item kefu-phone" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">收货地址</view>
+        </view>
+         <view class="gongju-item kefu-phone" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">会员中心</view>
+        </view>
+         <view class="gongju-item kefu-phone" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">我的评价</view>
+        </view>
+         <view class="gongju-item kefu-phone" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">客服电话</view>
+        </view>
+         <view class="gongju-item kefu-phone last" hover-class="none" hover-stop-propagation="false">
+            <image class="" src="../images/u=2531972538,559623921&fm=26&gp=0.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            <view class="" hover-class="none" hover-stop-propagation="false">意见反馈</view>
+        </view>
+    </view>
+</view>
+<template is="medcine-more"></template>

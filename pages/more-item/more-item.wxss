@@ -1,0 +1,75 @@
+/* pages/more-item/more-item.wxss */
+
+.cont-more{
+    width:750rpx;
+    padding:40rpx;
+    box-sizing:border-box;
+    flex:1;
+    overflow:auto;
+    height:100%;
+}
+.cont-more .title{
+   width:130rpx;
+   height:30rpx;
+   font-size:22rpx;
+   font-family:PingFangSC-Regular,PingFang SC;
+   font-weight:400;
+   color:rgba(60,164,240,1);
+   line-height:30rpx;
+   margin-left:267rpx;
+   margin-top:-12rpx;
+   margin-bottom:30rpx;
+}
+.more-item{
+   width:214rpx;
+   height:291rpx;
+   background:rgba(255,255,255,1);
+   box-shadow:0px 2px 4px 0px rgba(221,221,221,0.5);
+}
+.more-item image{
+   width:214rpx;
+   height:180rpx
+}
+.more-price view{
+   width:176rpx;
+   height:25rpx;
+   font-size:18rpx;
+   font-family:PingFangSC-Regular,PingFang SC;
+   font-weight:400;
+   color:rgba(0,0,0,1);
+   line-height:25rpx;
+}
+.cont-more .cont-item{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.price-item{
+    display:flex;
+    justify-content: space-between;
+    margin-top:19rpx;
+    /* height:40rpx; */
+}
+.price-item .price{
+   width:66rpx;
+   height:22rpx;
+   font-size:16rpx;
+   font-family:PingFangSC-Medium,PingFang SC;
+   font-weight:500;
+   color:rgba(60,164,240,1);
+   line-height:22rpx;
+   margin-left:10rpx;
+}
+.primary-button1{
+   width:30rpx;
+   height:30rpx;
+   background:rgba(60,164,240,1);
+   border-radius:50%;
+   text-align: center;
+   line-height:30rpx;
+   color:#ffffff;
+   margin-right:20rpx;
+}
+.content .medcine-price{
+    margin-left:15rpx;
+}

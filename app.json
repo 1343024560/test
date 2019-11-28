@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+ 
+    "pages/mine/mine",
+    "pages/logs/logs",
+    "pages/gouwu/gouwu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "五福同康",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#00a8f3",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/u=2531972538,559623921&fm=26&gp=0.jpg",
+        "selectedIconPath": "pages/images/u=198453759,1675004051&fm=26&gp=0.jpg"
+      },
+      {
+        "pagePath": "pages/gouwu/gouwu",
+        "text": "购物车",
+        "iconPath": "pages/images/u=2531972538,559623921&fm=26&gp=0.jpg",
+        "selectedIconPath": "pages/images/u=198453759,1675004051&fm=26&gp=0.jpg"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/images/u=2531972538,559623921&fm=26&gp=0.jpg",
+        "selectedIconPath": "pages/images/u=198453759,1675004051&fm=26&gp=0.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap27.json"
+}
